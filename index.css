@@ -1,0 +1,76 @@
+/* Full-page video background */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+   
+    align-items: center;
+}
+
+.navbar img {
+    width: 50px; /* Adjust the logo size */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 5px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #f39c12; /* Color change on hover */
+}
+
+/* Main content area */
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 120px; /* Adjust based on navbar height */
+}
+
+.content h1 {
+    font-size: 3em;
+    
+}
+
+.content p {
+    font-size: 1.5em;
+}
+
+header {
+
+display:flex;
+justify-content: space-between;
+align-items: center;
+display: flex;
+
+}
